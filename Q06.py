@@ -12,3 +12,13 @@
 # Sample Output 2:  0! = 1
 
 # --- YOUR CODE HERE ---
+# Q06. Factorial (for loop)
+
+n = int(input("Enter a number: "))
+
+factorial = 1
+
+for i in range(1, n + 1):
+    factorial *= i
+
+print(f"{n}! = {factorial}")

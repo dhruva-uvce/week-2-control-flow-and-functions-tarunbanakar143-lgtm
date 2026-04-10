@@ -11,3 +11,9 @@
 #   5 x 10 = 50
 
 # --- YOUR CODE HERE ---
+# Q03. Multiplication Table (for loop)
+
+n = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)
